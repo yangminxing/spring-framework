@@ -86,7 +86,7 @@ public abstract class ClassUtils {
 
 	/**
 	 * Map with primitive type name as key and corresponding primitive
-	 * type as value, for example: "int" -> "int.class".
+	 * type as value, for example: "int" -> int.class.
 	 */
 	private static final Map<String, Class<?>> primitiveTypeNameMap = new HashMap<String, Class<?>>(32);
 
